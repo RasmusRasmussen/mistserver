@@ -1,5 +1,5 @@
 FROM phusion/baseimage:master
-MAINTAINER R0GGER
+MAINTAINER Rasmus Rasmussen
 
 ENV PATH /app/mistserver:$PATH
 ARG MISTSERVER=https://r.mistserver.org/dl/mistserver_64V2.18.1.tar.gz
